@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-
+# Nice
 @app.route("/")
 def home():
     return jsonify({"message": "Hello from Flask!", "status": "success"})
