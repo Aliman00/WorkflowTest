@@ -216,8 +216,8 @@ Alle rapporter kan eksporteres til PDF eller Excel/CSV for enkel dokumentasjon v
 
 ### Prosjektstruktur
 ```
-WorkOwl/
-├── WC.Backend/                  ← ASP.NET Core Web API
+CompVault/
+├── CompVault.Backend/                  ← ASP.NET Core Web API
 │   ├── Common/                  ← BaseController og andre felles filer
 │   │      
 │   ├── Features/                ← Features med relevante modeller, DTO-er, kontrollere,
@@ -236,13 +236,13 @@ WorkOwl/
 │   └── Infrastructure/          ← AppDbContext, migrasjoner, Hangfire, Cache, Epost, SMS,
 │                                  Security etc.
 │
-├── WC.Frontend/                 ← Blazor Server
+├── CompVault.Frontend/                 ← Blazor Server
 │   ├── Pages/
 │   ├── Components/
 │   └── wwwroot/
-├── WC.Shared/                   ← Delte klasser, f.eks. Result<T>, Result
+├── CompVault.Shared/                   ← Delte klasser, f.eks. Result<T>, Result
 │
-├── WC.Tests/                    ← xUnit testprosjekt
+├── CompVault.Tests/                    ← xUnit testprosjekt
 │   ├── Unit/
 │   ├── Integration/
 │   └── Security/
