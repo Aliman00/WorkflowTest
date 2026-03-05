@@ -49,7 +49,7 @@ Systemet settes opp for én bedrift (single-tenant), men har en avansert rolleba
 | Leder | Tilgang til sin avdelings ansatte, kompetanse og onboarding |
 | Ansatt | Ser egen profil, egne oppgaver og HMS-dokumenter |
 | Utstyrsansvarlig | Tilgang kun til utstyrsloggen (modul 2.5) |
-| HR | Tilgang til brukeradmin, rapporter og onboarding-maler |
+| Personal Leder | Tilgang til brukeradmin, rapporter og onboarding-maler |
 
 Roller er ikke hardkodet — de er samlinger av granulære tillatelser (f.eks. `competencies:read`, `equipment:write`). Bedriften kan selv definere egne roller med ønsket kombinasjon av tillatelser. Alle ruter i API-et sjekker tillatelser, ikke rollenavn.
 
@@ -59,10 +59,7 @@ Ansatte knyttes til én avdeling. Avdelinger er en enkel flat liste som bedrifte
 
 ### 2.2 Kurs, kompetansebevis og ansvarsområder
 
-SKRIV OM DENNE:
-START:
 Dette er «motoren» som definerer hva ansatte faktisk har lov til å gjøre.
-STOP!
 
 Systemet håndterer en bred portefølje av kompetanse: interne kurs, formelle sertifikater og kompetansebevis (f.eks. varme arbeider, fallsikring, truckførerbevis). Bevisene knyttes opp mot ansvarsområder, slik at det er tydelig hvem som er godkjent for hvilke operasjoner i bedriften.
 
