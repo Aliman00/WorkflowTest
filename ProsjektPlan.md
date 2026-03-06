@@ -34,7 +34,7 @@ Dette prosjektet tar sikte på å bygge en webbasert portal — skreddersydd for
 
 ## 2. Kjernefunksjonalitet (Scope)
 
-Prosjektet er strengt avgrenset til følgende syv hovedmoduler:
+Prosjektet er strengt avgrenset til følgende følgende moduler og kravbeskrivelse:
 
 ---
 
