@@ -161,6 +161,25 @@ Alle rapporter kan eksporteres til PDF eller Excel/CSV for enkel dokumentasjon v
 
 ---
 
+### 2.8 User Stories
+
+Følgende user stories beskriver kjernebehov fra systemets ulike brukerroller.
+De danner grunnlaget for prioriteringen i backloggen og sikrer at funksjonaliteten bygges med brukernes perspektiv i fokus.
+
+| Som... | Ønsker jeg... | Slik at... |
+|---|---|---|
+| Admin | Opprette og administrere roller med granulære tillatelser | Jeg kan styre tilgangen til systemet uten kodeendringer |
+| Admin | Deaktivere en bruker uten å slette historikken | Revisjonsloggen forblir intakt ved avslutning av arbeidsforhold |
+| Leder | Se en oversikt over ansatte i min avdeling med utløpende kompetansebevis | Jeg kan sette i gang fornyelse før fristen løper ut |
+| Leder | Godkjenne at en ansatt har oppfylt et stillingskrav | Kravet registreres som gjensidig bekreftet i systemet |
+| Ansatt | Bekrefte at jeg har lest og forstått et HMS-dokument | Min signatur er dokumentert med tidsstempel |
+| Ansatt | Se status på mine egne kompetansebevis | Jeg vet hvilke bevis som snart utløper |
+| Utstyrsansvarlig | Registrere utlevert PPE og uniform per ansatt | Jeg har full oversikt over hva som er utlevert til hvem |
+| Personal Leder | Opprette og tildele onboarding-maler til nyansatte | Alle nyansatte får en konsistent og dokumentert oppstart |
+| Personal Leder | Generere en offboarding-sjekkliste ved avslutning av arbeidsforhold | Ingen utstyr eller tilganger glemmes ved utmelding |
+
+---
+
 ## 3. Teknisk arkitektur
 
 ### Teknologistack
