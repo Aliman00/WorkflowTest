@@ -14,6 +14,7 @@
    - 2.5 Utstyrslogg (Uniform og PPE)
    - 2.6 Onboarding og offboarding
    - 2.7 Varslinger og rapportering
+   - 2.8 User Stories
 3. Teknisk arkitektur
 4. Datamodell
 5. Arbeidsmetodikk og regler for samarbeid
